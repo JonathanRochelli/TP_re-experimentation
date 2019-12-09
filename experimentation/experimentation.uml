@@ -26,7 +26,6 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_19HHUBplEeqxdp60tNv4CQ"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_LpdNEBpoEeqxdp60tNv4CQ" name="Savoir si sa voiture est chargée (US 9)"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_VGHUwBpoEeqxdp60tNv4CQ" name="Connaître la quantité d'eau chaude (US 8)"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_bWtwIBpoEeqxdp60tNv4CQ" name="Installer une nouvelle source de production électrique (US 7)"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_lqhiQBpoEeqxdp60tNv4CQ"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_mZC1IBpoEeqxdp60tNv4CQ"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_ogQZQBpoEeqxdp60tNv4CQ"/>
@@ -126,7 +125,9 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CSNmghqMEeqxdp60tNv4CQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_CSNmgxqMEeqxdp60tNv4CQ" name="capteurs" type="_8tYzYBqIEeqxdp60tNv4CQ" aggregation="composite" association="_CSNmgBqMEeqxdp60tNv4CQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_CSONkBqMEeqxdp60tNv4CQ" name="alfred" type="_Ban2ABpyEeqxdp60tNv4CQ" association="_CSNmgBqMEeqxdp60tNv4CQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_CSONkBqMEeqxdp60tNv4CQ" name="alfred" type="_Ban2ABpyEeqxdp60tNv4CQ" association="_CSNmgBqMEeqxdp60tNv4CQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GFvtQBqyEeqxdp60tNv4CQ" value="*"/>
+      </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_DHoLkBqMEeqxdp60tNv4CQ" name="Analyse"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_E1hQwBqMEeqxdp60tNv4CQ" name="Traitement"/>
