@@ -12,3 +12,7 @@ les cas d'utilisation définis dans ce modèle sont :
 	- Installer une nouvelle source de production électrique
 
 ![Alt text](Screen/Capture.PNG?raw=true "Use case")
+
+BDD 
+
+![Alt text](Screen/Capture.PNG?raw=true "Use case")
