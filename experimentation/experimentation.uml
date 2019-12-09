@@ -31,7 +31,7 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_mZC1IBpoEeqxdp60tNv4CQ"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_ogQZQBpoEeqxdp60tNv4CQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_bh224BptEeqxdp60tNv4CQ" name="Gerer la maison"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_5Q9HkBpuEeqxdp60tNv4CQ" name="Régler le chauffage"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5Q9HkBpuEeqxdp60tNv4CQ" name="Réguler la température"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_O21msBp2Eeqxdp60tNv4CQ" name="Thermometre"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ban2ABpyEeqxdp60tNv4CQ" name="Alfred" visibility="public">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Yo3eQBpyEeqxdp60tNv4CQ" name="creerGraphique"/>
@@ -146,7 +146,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_FJoDEBqNEeqxdp60tNv4CQ" name="Module electronique"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_nwrWoBqNEeqxdp60tNv4CQ" name="Actor1"/>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_rdvBwBqOEeqxdp60tNv4CQ" name="Interaction54">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_rdvBwBqOEeqxdp60tNv4CQ" name="Affichage de la consommation d'eau">
       <lifeline xmi:type="uml:Lifeline" xmi:id="_uWeJcBqOEeqxdp60tNv4CQ" name="Utilisateur" coveredBy="_QsqPIBqSEeqxdp60tNv4CQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_wN3I4BqOEeqxdp60tNv4CQ" name="Ecran" coveredBy="_Qsq2MBqSEeqxdp60tNv4CQ _bgxR8BqSEeqxdp60tNv4CQ _tkTI0BqSEeqxdp60tNv4CQ _6pnOsBqREeqxdp60tNv4CQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_xCVSwBqOEeqxdp60tNv4CQ" name="Alfred" coveredBy="_bgxR8RqSEeqxdp60tNv4CQ _kZTY4BqSEeqxdp60tNv4CQ _o6DnQBqSEeqxdp60tNv4CQ _tkShwBqSEeqxdp60tNv4CQ _jOsm8BqSEeqxdp60tNv4CQ _hr-3ABqSEeqxdp60tNv4CQ"/>
@@ -171,6 +171,23 @@
       <message xmi:type="uml:Message" xmi:id="_o6CZIBqSEeqxdp60tNv4CQ" name="Récupération de l'information" messageSort="asynchCall" receiveEvent="_o6DnQBqSEeqxdp60tNv4CQ" sendEvent="_o6DAMBqSEeqxdp60tNv4CQ"/>
       <message xmi:type="uml:Message" xmi:id="_tkR6sBqSEeqxdp60tNv4CQ" name="Affichage du graphique" messageSort="asynchCall" receiveEvent="_tkTI0BqSEeqxdp60tNv4CQ" sendEvent="_tkShwBqSEeqxdp60tNv4CQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HKFmgBqvEeqxdp60tNv4CQ" name="Régler la température"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N8XyoBqvEeqxdp60tNv4CQ" name="Qualité de l'air"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XHPmwBqvEeqxdp60tNv4CQ" name="Charger la voiture"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hTxsMBqvEeqxdp60tNv4CQ" name="Gérer la consommation électrique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nyn-8BqvEeqxdp60tNv4CQ" name="Gérer l'eau chaude"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_BIHnkBqwEeqxdp60tNv4CQ" name="DeriveReqt58" client="_nyn-8BqvEeqxdp60tNv4CQ" supplier="_bh224BptEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_CFHbUBqwEeqxdp60tNv4CQ" name="DeriveReqt59" client="_5Q9HkBpuEeqxdp60tNv4CQ" supplier="_uK_WMBpiEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_CjFwwBqwEeqxdp60tNv4CQ" name="DeriveReqt60" client="_N8XyoBqvEeqxdp60tNv4CQ" supplier="_bh224BptEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_KrZ7sBqwEeqxdp60tNv4CQ" name="DeriveReqt61" client="_XHPmwBqvEeqxdp60tNv4CQ" supplier="_bh224BptEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_W6HUQBqwEeqxdp60tNv4CQ" name="DeriveReqt62" client="_hTxsMBqvEeqxdp60tNv4CQ" supplier="_bh224BptEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_gD90sBqwEeqxdp60tNv4CQ" name="DeriveReqt63" client="_HKFmgBqvEeqxdp60tNv4CQ" supplier="_5Q9HkBpuEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nSfQ4BqwEeqxdp60tNv4CQ" name="Choisir la VMC"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uaLFQBqwEeqxdp60tNv4CQ" name="Mesurer le CO2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_82SJgBqwEeqxdp60tNv4CQ" name="Mesurer la qualité de l'air"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_CSf6kBqxEeqxdp60tNv4CQ" name="DeriveReqt67" client="_nSfQ4BqwEeqxdp60tNv4CQ" supplier="_N8XyoBqvEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_Fh6c4BqxEeqxdp60tNv4CQ" name="DeriveReqt68" client="_uaLFQBqwEeqxdp60tNv4CQ" supplier="_N8XyoBqvEeqxdp60tNv4CQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_PSzIIBqxEeqxdp60tNv4CQ" name="DeriveReqt69" client="_82SJgBqwEeqxdp60tNv4CQ" supplier="_N8XyoBqvEeqxdp60tNv4CQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uL244BpiEeqxdp60tNv4CQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uL3f8BpiEeqxdp60tNv4CQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -239,7 +256,7 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_bh_ZwBptEeqxdp60tNv4CQ" base_NamedElement="_bh224BptEeqxdp60tNv4CQ" id="1" text="Gerer les différents services de la maison de Batman" base_Class="_bh224BptEeqxdp60tNv4CQ"/>
-  <Requirements:Requirement xmi:id="_5RDOMBpuEeqxdp60tNv4CQ" base_NamedElement="_5Q9HkBpuEeqxdp60tNv4CQ" id="2" text="Régler le chauffage pour que la maison soit à la bonne température&#xD;&#xA;&#xD;&#xA;" base_Class="_5Q9HkBpuEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_5RDOMBpuEeqxdp60tNv4CQ" base_NamedElement="_5Q9HkBpuEeqxdp60tNv4CQ" id="2" text="Réguler la température pour un confort optimal&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" base_Class="_5Q9HkBpuEeqxdp60tNv4CQ"/>
   <Blocks:Block xmi:id="_BasHcBpyEeqxdp60tNv4CQ" base_Class="_Ban2ABpyEeqxdp60tNv4CQ"/>
   <Blocks:Block xmi:id="_GVRlkBqHEeqxdp60tNv4CQ" base_Class="_GVPJUBqHEeqxdp60tNv4CQ"/>
   <Blocks:Block xmi:id="_g3tF8BqIEeqxdp60tNv4CQ" base_Class="_g3qpsBqIEeqxdp60tNv4CQ"/>
@@ -265,4 +282,22 @@
   <Blocks:BindingConnector xmi:id="_HlC_0hqREeqxdp60tNv4CQ" base_Connector="_Hk_8gBqREeqxdp60tNv4CQ"/>
   <DeprecatedElements:FlowPort xmi:id="_P50SYBqREeqxdp60tNv4CQ" base_Port="_P5ydMBqREeqxdp60tNv4CQ" direction="out"/>
   <Blocks:BindingConnector xmi:id="_V_da8hqREeqxdp60tNv4CQ" base_Connector="_V_blwBqREeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_HKLGEBqvEeqxdp60tNv4CQ" base_NamedElement="_HKFmgBqvEeqxdp60tNv4CQ" id="3" text="Régler le chauffage pour ajuster la température&#xD;&#xA;" base_Class="_HKFmgBqvEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_N8d5QBqvEeqxdp60tNv4CQ" base_NamedElement="_N8XyoBqvEeqxdp60tNv4CQ" id="3" text="Préserver un air sain dans la maison" base_Class="_N8XyoBqvEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_XHVGUBqvEeqxdp60tNv4CQ" base_NamedElement="_XHPmwBqvEeqxdp60tNv4CQ" id="4" text="Recharger la voiture pour qu'elle soit toujours opérationnelle" base_Class="_XHPmwBqvEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_hT5A8BqvEeqxdp60tNv4CQ" base_NamedElement="_hTxsMBqvEeqxdp60tNv4CQ" id="5" text="Gérer le ratio consommation/production d'électricité" base_Class="_hTxsMBqvEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_nytegBqvEeqxdp60tNv4CQ" base_NamedElement="_nyn-8BqvEeqxdp60tNv4CQ" id="6" text="Gérer la consommation d'eau chaude&#xD;&#xA;" base_Class="_nyn-8BqvEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_BIRYkBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_BIHnkBqwEeqxdp60tNv4CQ" base_Abstraction="_BIHnkBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_CFJQgBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_CFHbUBqwEeqxdp60tNv4CQ" base_Abstraction="_CFHbUBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_CjJbIBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_CjFwwBqwEeqxdp60tNv4CQ" base_Abstraction="_CjFwwBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_C9RyYBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_KreNIBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_KrZ7sBqwEeqxdp60tNv4CQ" base_Abstraction="_KrZ7sBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_W6Na4BqwEeqxdp60tNv4CQ" base_DirectedRelationship="_W6HUQBqwEeqxdp60tNv4CQ" base_Abstraction="_W6HUQBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_gEEiYBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_gD90sBqwEeqxdp60tNv4CQ" base_Abstraction="_gD90sBqwEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_nSmloBqwEeqxdp60tNv4CQ" base_NamedElement="_nSfQ4BqwEeqxdp60tNv4CQ" id="4" text="Choisir la VMC adaptée" base_Class="_nSfQ4BqwEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_uaNhgBqwEeqxdp60tNv4CQ" base_NamedElement="_uaLFQBqwEeqxdp60tNv4CQ" id="5" text="Mesurer le taux de CO2 pour assurer la sécurité" base_Class="_uaLFQBqwEeqxdp60tNv4CQ"/>
+  <Requirements:Requirement xmi:id="_82ZeQBqwEeqxdp60tNv4CQ" base_NamedElement="_82SJgBqwEeqxdp60tNv4CQ" id="6" text="Mesurer la qualité de l'air&#xD;&#xA;" base_Class="_82SJgBqwEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_CSkzEBqxEeqxdp60tNv4CQ" base_DirectedRelationship="_CSf6kBqxEeqxdp60tNv4CQ" base_Abstraction="_CSf6kBqxEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_Fh-uUBqxEeqxdp60tNv4CQ" base_DirectedRelationship="_Fh6c4BqxEeqxdp60tNv4CQ" base_Abstraction="_Fh6c4BqxEeqxdp60tNv4CQ"/>
+  <Requirements:DeriveReqt xmi:id="_PS4AoBqxEeqxdp60tNv4CQ" base_DirectedRelationship="_PSzIIBqxEeqxdp60tNv4CQ" base_Abstraction="_PSzIIBqxEeqxdp60tNv4CQ"/>
 </xmi:XMI>
