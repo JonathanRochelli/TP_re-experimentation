@@ -1,6 +1,8 @@
 # TP_re-experimentation
 Subject: Alfred - Majordome de Batman
 
+Fichier contenant les user stories nous guidant pour la réalisation des diagrammes : [User Stories](https://github.com/JonathanRochelli/TP_re-experimentation/blob/master/UserStories_MENDEZ_GRILLOT_MASTERICE.xlsx)
+
 # Requirements Diagram
 Requirements Diagram : Ce diagramme présente les différentes exigences du system
 Quelques exemples d'exigences sont :
