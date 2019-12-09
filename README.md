@@ -11,4 +11,4 @@ les cas d'utilisation définis dans ce modèle sont :
 	- Connaître la quantité d'eau chaude
 	- Installer une nouvelle source de production électrique
 
-![Alt text](Screen/Capture.png?raw=true "Use case")
+![Alt text](Screen/Capture.PNG?raw=true "Use case")
