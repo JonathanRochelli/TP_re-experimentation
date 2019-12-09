@@ -23,13 +23,14 @@ les cas d'utilisation définis dans ce modèle sont :
 ![Alt text](experimentation/UseCase.PNG?raw=true "Use case")
 
 # Block Definition Diagram
-Block Definition Diagram : 6 blocks différents présents dan le diagramme :
+Block Definition Diagram : 6 blocks différents présents dans le diagramme :
 * Analyse
 * Traitement
 * Module électronique 
 * Alfred
 * Capteurs
 * Affichage
+
 D'après ce diagramme, le module electronique est composé d'un block d'analyse et de traitement destiné au traitement et à l'analyse des données
 récoltées par les capteurs. Alfred est composé de ce module électronique, de capteurs et d'un écran. Les capteurs récupérent les données 
 qui seront affichées sur l'écran
@@ -42,3 +43,12 @@ Toutes les informations des capteurs vont dans le block analyse puis traitement.
 Les informations traitées sont ensuite afffichées à l'écran (out).
 
 ![Alt text](experimentation/InternalBlockDiagram.PNG?raw=true "IBD")
+
+# Sequence Diagram
+Sequence Diagram : Diagramme de séquence de l'affichage du graphique de la consommation d'eau. Ce diagramme fait intervenir 4 acteurs :
+* L'utilisateur
+* L'écran
+* Alfred
+* Les capteurs
+
+![Alt text](experimentation/SequenceDiagram.PNG?raw=true "IBD")
