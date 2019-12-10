@@ -167,7 +167,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tkShwBqSEeqxdp60tNv4CQ" name="Message22SendEvent" covered="_xCVSwBqOEeqxdp60tNv4CQ" message="_tkR6sBqSEeqxdp60tNv4CQ"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tkTI0BqSEeqxdp60tNv4CQ" name="Message22ReceiveEvent" covered="_wN3I4BqOEeqxdp60tNv4CQ" message="_tkR6sBqSEeqxdp60tNv4CQ"/>
       <message xmi:type="uml:Message" xmi:id="_QspBABqSEeqxdp60tNv4CQ" name="Clique sur un bouton" messageSort="asynchCall" receiveEvent="_Qsq2MBqSEeqxdp60tNv4CQ" sendEvent="_QsqPIBqSEeqxdp60tNv4CQ"/>
-      <message xmi:type="uml:Message" xmi:id="_bgwq4BqSEeqxdp60tNv4CQ" name="Demande d'affaire" messageSort="asynchCall" receiveEvent="_bgxR8RqSEeqxdp60tNv4CQ" sendEvent="_bgxR8BqSEeqxdp60tNv4CQ"/>
+      <message xmi:type="uml:Message" xmi:id="_bgwq4BqSEeqxdp60tNv4CQ" name="Demande d'affichage" messageSort="asynchCall" receiveEvent="_bgxR8RqSEeqxdp60tNv4CQ" sendEvent="_bgxR8BqSEeqxdp60tNv4CQ"/>
       <message xmi:type="uml:Message" xmi:id="_kZSx0BqSEeqxdp60tNv4CQ" name="Demande des données" messageSort="asynchCall" receiveEvent="_kZTY4RqSEeqxdp60tNv4CQ" sendEvent="_kZTY4BqSEeqxdp60tNv4CQ"/>
       <message xmi:type="uml:Message" xmi:id="_o6CZIBqSEeqxdp60tNv4CQ" name="Récupération de l'information" messageSort="asynchCall" receiveEvent="_o6DnQBqSEeqxdp60tNv4CQ" sendEvent="_o6DAMBqSEeqxdp60tNv4CQ"/>
       <message xmi:type="uml:Message" xmi:id="_tkR6sBqSEeqxdp60tNv4CQ" name="Affichage du graphique" messageSort="asynchCall" receiveEvent="_tkTI0BqSEeqxdp60tNv4CQ" sendEvent="_tkShwBqSEeqxdp60tNv4CQ"/>
