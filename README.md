@@ -13,9 +13,9 @@ Quelques exemples d'exigences sont :
 ![Alt text](experimentation/RequirementDiagram.PNG?raw=true "Use case")
 
 # Use Case
-Use case : Chaque cas d'utilisation renvoie à une fonctionnalités que doit 
+Use case : Chaque cas d'utilisation renvoi à une fonctionnalité que doit 
 proposer le système. Toutes ces indications sont déstinées à l'utilisateur. Il peut récupérer toutes les informations liées à la gestion de la maison.
-les cas d'utilisation définis dans ce modèle sont :
+Les cas d'utilisation définis dans ce modèle sont :
 * Régler le chauffage
 * Garder une bonne qualité de l'air
 * Savoir si sa voiture est chargée
@@ -25,7 +25,7 @@ les cas d'utilisation définis dans ce modèle sont :
 ![Alt text](experimentation/UseCase.PNG?raw=true "Use case")
 
 # Block Definition Diagram
-Block Definition Diagram : Ce diagramme représente les principaux composants utile dans le système. 6 blocks différents présents dans le diagramme :
+Block Definition Diagram : Ce diagramme représente les principaux composants utile dans le système. 6 blocks différents sont présents dans le diagramme :
 * Analyse
 * Traitement
 * Module électronique 
