@@ -7,7 +7,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_uOevEBpiEeqxdp60tNv4CQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_Q24tgBpjEeqxdp60tNv4CQ" name="Alfred"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Q24tgBpjEeqxdp60tNv4CQ" name="Utilisateur"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_RtJAEBpjEeqxdp60tNv4CQ" name="Régler le chauffage (US 1)"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_VS3JkBpjEeqxdp60tNv4CQ" name="Savoir quelle VMC choisir (US 2)"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_b2t4IBpjEeqxdp60tNv4CQ" name="Connaître la taux de CO2 (US 3)"/>
@@ -291,7 +291,6 @@
   <Requirements:DeriveReqt xmi:id="_BIRYkBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_BIHnkBqwEeqxdp60tNv4CQ" base_Abstraction="_BIHnkBqwEeqxdp60tNv4CQ"/>
   <Requirements:DeriveReqt xmi:id="_CFJQgBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_CFHbUBqwEeqxdp60tNv4CQ" base_Abstraction="_CFHbUBqwEeqxdp60tNv4CQ"/>
   <Requirements:DeriveReqt xmi:id="_CjJbIBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_CjFwwBqwEeqxdp60tNv4CQ" base_Abstraction="_CjFwwBqwEeqxdp60tNv4CQ"/>
-  <Requirements:DeriveReqt xmi:id="_C9RyYBqwEeqxdp60tNv4CQ"/>
   <Requirements:DeriveReqt xmi:id="_KreNIBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_KrZ7sBqwEeqxdp60tNv4CQ" base_Abstraction="_KrZ7sBqwEeqxdp60tNv4CQ"/>
   <Requirements:DeriveReqt xmi:id="_W6Na4BqwEeqxdp60tNv4CQ" base_DirectedRelationship="_W6HUQBqwEeqxdp60tNv4CQ" base_Abstraction="_W6HUQBqwEeqxdp60tNv4CQ"/>
   <Requirements:DeriveReqt xmi:id="_gEEiYBqwEeqxdp60tNv4CQ" base_DirectedRelationship="_gD90sBqwEeqxdp60tNv4CQ" base_Abstraction="_gD90sBqwEeqxdp60tNv4CQ"/>
