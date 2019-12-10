@@ -4,7 +4,7 @@ Subject: Alfred - Majordome de Batman
 Fichier contenant les user stories nous guidant pour la réalisation des diagrammes : [User Stories](https://github.com/JonathanRochelli/TP_re-experimentation/blob/master/UserStories_MENDEZ_GRILLOT_MASTERICE.xlsx)
 
 # Requirements Diagram
-Requirements Diagram : Ce diagramme présente les différentes exigences du system
+Requirements Diagram : Ce diagramme présente les différentes exigences du système. La principale exigence du système est de gérer la maison. Cette exigence est, ensuite, découpée en plusieurs sous-parties, chacune chargées d'un domaine (eau, éléctricité,...)
 Quelques exemples d'exigences sont :
 * Gérer l'eau chaude
 * Gérer la consommation électrique
@@ -14,7 +14,7 @@ Quelques exemples d'exigences sont :
 
 # Use Case
 Use case : Chaque cas d'utilisation renvoie à une fonctionnalités que doit 
-proposer le système. Toutes ces indications sont déstinées au seul acteur du système : Alfred le Majordome.
+proposer le système. Toutes ces indications sont déstinées à l'utilisateur. Il peut récupérer toutes les informations liées à la gestion de la maison.
 les cas d'utilisation définis dans ce modèle sont :
 * Régler le chauffage
 * Garder une bonne qualité de l'air
@@ -25,7 +25,7 @@ les cas d'utilisation définis dans ce modèle sont :
 ![Alt text](experimentation/UseCase.PNG?raw=true "Use case")
 
 # Block Definition Diagram
-Block Definition Diagram : 6 blocks différents présents dans le diagramme :
+Block Definition Diagram : Ce diagramme représente les principaux composants utilent dans le système. 6 blocks différents présents dans le diagramme :
 * Analyse
 * Traitement
 * Module électronique 
@@ -47,7 +47,7 @@ Les informations traitées sont ensuite afffichées à l'écran (out).
 ![Alt text](experimentation/InternalBlockDiagram.PNG?raw=true "IBD")
 
 # Sequence Diagram
-Sequence Diagram : Diagramme de séquence de l'affichage du graphique de la consommation d'eau. Ce diagramme fait intervenir 4 acteurs :
+Sequence Diagram : Diagramme de séquence de l'affichage du graphique de la consommation d'eau. Il représente le processus d'affichage du graphique de la consommation d'eau. Ce processus est initié par l'utilisateur. Ce diagramme fait intervenir 4 acteurs :
 * L'utilisateur
 * L'écran
 * Alfred
