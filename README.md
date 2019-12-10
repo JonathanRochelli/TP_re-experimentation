@@ -25,7 +25,7 @@ les cas d'utilisation définis dans ce modèle sont :
 ![Alt text](experimentation/UseCase.PNG?raw=true "Use case")
 
 # Block Definition Diagram
-Block Definition Diagram : Ce diagramme représente les principaux composants utilent dans le système. 6 blocks différents présents dans le diagramme :
+Block Definition Diagram : Ce diagramme représente les principaux composants utile dans le système. 6 blocks différents présents dans le diagramme :
 * Analyse
 * Traitement
 * Module électronique 
@@ -33,14 +33,12 @@ Block Definition Diagram : Ce diagramme représente les principaux composants ut
 * Capteurs
 * Affichage
 
-D'après ce diagramme, le module electronique est composé d'un block d'analyse et de traitement destiné au traitement et à l'analyse des données
-récoltées par les capteurs. Alfred est composé de ce module électronique, de capteurs et d'un écran. Les capteurs récupérent les données 
-qui seront affichées sur l'écran
+D'après ce diagramme, le module electronique est composé d'un block d'analyse et de traitement destiné au traitement et à l'analyse des données récoltées par les capteurs. Alfred est composé de ce module électronique, de capteurs et d'un écran. Les capteurs récupérent les données qui seront affichées sur l'écran.
 
 ![Alt text](experimentation/BlockDefinitionDiagram.PNG?raw=true "BDD")
 
 # Internal Block Diagram
-Internal Block Diagram : Détail du block Alfred du Block Definition Diagram. Ce diagramme contient le en entrée (in) les 6 capteurs nécessaires à l'obtention des données.
+Internal Block Diagram : Détail du block Alfred du Block Definition Diagram. Ce diagramme contient, en entrée (in), les 6 capteurs nécessaires à l'obtention des données.
 Toutes les informations des capteurs vont dans le block analyse puis traitement. Ces deux phases permettent le traitement et la génération du graphique propre au type de données demandées.
 Les informations traitées sont ensuite afffichées à l'écran (out).
 
